@@ -11,7 +11,7 @@ const Offering = () => {
         </p>
       </div>
 
-      <div className="flex flex-wrap p-10">
+      <div className="flex flex-wrap px-1 py-10 md:p-10">
         <div className="w-full px-4 md:w-1/2 lg:w-1/3">
           <div className="py-8 transition-all shadow-md mb-9 rounded-xl px-7 hover:shadow-lg sm:p-9 lg:px-6 xl:px-9">
             <div className="inline-block mx-auto mb-7">

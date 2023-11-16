@@ -29,7 +29,7 @@ const currentYear = new Date().getFullYear();
 export function FooterWithSitemap() {
   return (
     <footer className="relative w-full mt-2 bg-[#11113A]">
-      <div className="mt-24 border-t border-gray-900 border-opacity-10 lg:px-24">
+      <div className="px-4 mt-24 border-t border-gray-900 border-opacity-10 lg:px-24">
         <div className="flex justify-center pt-16">
           <Link
             className="flex flex-row items-center gap-2 text-teal-600"
@@ -46,8 +46,7 @@ export function FooterWithSitemap() {
         </div>
 
         <p className="max-w-md pb-10 mx-auto mt-6 leading-relaxed text-center text-gray-300">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
-          consequuntur amet culpa cum itaque neque.
+        We embrace creativity and innovation to provide cutting-edge solutions that keep our clients ahead in a rapidly changing business landscape
         </p>
         <div className="w-full px-8 mx-auto max-w-7xl">
           <div className="grid w-full grid-cols-2 gap-8 py-12 mx-auto md:grid-cols-2 lg:grid-cols-4">

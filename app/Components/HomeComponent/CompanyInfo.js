@@ -8,7 +8,7 @@ function CompanyInfo() {
   return (
     <div>
       <section className="relative">
-        <div className="w-full px-5 py-16 mx-auto max-w-7xl md:px-10 md:py-24 lg:py-10">
+        <div className="w-full py-16 mx-auto max-w-7xl md:px-10 md:py-24 lg:py-10">
           <section className="bg-white dark:bg-gray-900">
             <div className="items-center max-w-screen-xl gap-16 px-4 py-2 mx-auto lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
               <div className="a">
@@ -65,7 +65,7 @@ function CompanyInfo() {
           </section>
 
           <ul class="grid gap-5 sm:grid-cols-2 md:grid-cols-3 md:gap-0 w-full">
-            <li className="flex flex-col items-center gap-6 border-r-[1px] px-10 py-4 max-[767px]:p-8 max-[767px]:[border-right-style:none]">
+            <li className="flex flex-col items-center gap-6 border-r-[1px] px-4 md:px-10 py-4 max-[767px]:p-8 max-[767px]:[border-right-style:none]">
               <p className="text-xl font-semibold">Our Mission</p>
               <p className="text-center text-sm text-[#636262]">
                 To be the trusted partner of choice, known for our relentless
@@ -80,7 +80,7 @@ function CompanyInfo() {
                 width={500}
               />
             </li>
-            <li className="flex flex-col items-center gap-6 border-r-[1px] px-10 py-4 max-[767px]:p-8 max-[767px]:[border-right-style:none]">
+            <li className="flex flex-col items-center gap-6 border-r-[1px] px-4 md:px-10 py-4 max-[767px]:p-8 max-[767px]:[border-right-style:none]">
               <p className="text-xl font-semibold">Our Vision</p>
               <p className="text-center text-sm text-[#636262]">
                 To drive transformative change for businesses by delivering
@@ -96,7 +96,7 @@ function CompanyInfo() {
               />
             </li>
 
-            <li class="flex flex-col items-center gap-6 border-r-[1px] px-10 py-4 max-[767px]:p-8 max-[767px]:[border-right-style:none]">
+            <li class="flex flex-col items-center gap-6 border-r-[1px] px-4 md:px-10 py-4 max-[767px]:p-8 max-[767px]:[border-right-style:none]">
               <p class="text-xl font-semibold">Our Values</p>
               <ul className="flex flex-col items-start gap-4">
                 <li className="flex items-start mb-2">

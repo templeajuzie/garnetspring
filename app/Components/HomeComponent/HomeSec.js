@@ -8,7 +8,7 @@ const HomeSec = () => {
   return (
     <div>
       <header>
-        <div className="w-full px-5 py-10 mx-auto max-w-7xl md:px-14">
+        <div className="w-full px-4 py-10 mx-auto max-w-7xl md:px-14">
           <div className="grid items-center gap-8 justify-items-start sm:gap-20 lg:gap-28 lg:grid-cols-2">
             <div className="flex flex-col">
               <h1 className="mb-4 text-2xl font-bold md:text-3xl lg:w-[80%] text-gray-100">
@@ -93,7 +93,7 @@ const HomeSec = () => {
 
             <div class="lg:inset-y-0 lg:right-0 lg:w-full">
               <Image
-                className="inline-block rounded-xl h-[80vh] w-full object-cover"
+                className="inline-block rounded-xl h-[60vh] md:h-[80vh] w-full object-cover"
                 src={homeimg}
                 alt=""
                 height={500}

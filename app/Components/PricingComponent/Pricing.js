@@ -13,7 +13,7 @@ function Pricing() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 md:gap-3 lg:px-24">
+      <div className="grid grid-cols-1 gap-8 px-2 sm:grid-cols-2 md:grid-cols-3 md:gap-3 lg:px-24">
         <div className="w-full p-4 bg-white shadow-lg rounded-2xl dark:bg-gray-800">
           <p className="mb-4 text-xl font-medium text-gray-800 dark:text-gray-50">
             Basic Plan

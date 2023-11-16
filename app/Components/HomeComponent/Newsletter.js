@@ -13,7 +13,7 @@ const Newsletter = () => {
                 Get the latest and greatest
               </h3>
               <p class="max-w-md max-[479px]:text-sm">
-                Lorem ipsum dolor sit amet, consectetur.
+                Subscribe to our Newsletter, and stay informed about our juicy services .
               </p>
             </div>
             <div class="max-w-md sm:max-w-full">
@@ -34,7 +34,7 @@ const Newsletter = () => {
                 />
               </form>
               <p class="text-sm text-[#636262] sm:text-base">
-                Join a community of over <span>5000+ Webflow Developers</span>
+                Join a community of over <span>5000+ Businesses using Garnet Spring</span>
               </p>
             </div>
           </div>
