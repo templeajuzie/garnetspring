@@ -38,7 +38,7 @@ const HomeSec = () => {
                   with unwavering integrity, always acting ethically, and
                   honesty.
                 </p>
-                <div className="flex items-start gap-11 sm:flex-row sm:items-center">
+                <div className="flex items-center gap-11 sm:flex-row sm:items-center">
                   <div className="flex items-center">
                     <Image
                       src="https://icon-library.com/images/verified-icon-png/verified-icon-png-11.jpg"
