@@ -4,7 +4,7 @@ function Pricing() {
   return (
     <div className="">
       <div className="max-w-3xl px-16 mx-auto mt-16 mb-8 text-center md:mb-12 lg:mb-16">
-        <h2 className="text-3xl font-bold md:text-3xl">
+        <h2 className="text-2xl font-bold md:text-3xl">
           Simple &amp; Affordable Pricing
         </h2>
 
