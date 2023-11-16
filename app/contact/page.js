@@ -12,8 +12,9 @@ function Contact() {
           <div className="mx-auto max-w-7xl px-5 py-16 text-center md:px-10 md:py-24 lg:py-32 lg:w-[60%]">
             <h2 className="text-3xl font-bold md:text-3xl">Contact Sales</h2>
             <p className="mx-auto mb-8 mt-4 max-w-lg text-[#636262] md:mb-12 lg:mb-16">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-              aliquam,purus sit amet luctus magna fringilla urna
+              Whether you're seeking assistance, have inquiries about our
+              services, or simply want to reach out, our team is here to provide
+              prompt and helpful responses.
             </p>
 
             <form
