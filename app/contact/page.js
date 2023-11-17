@@ -5,9 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 function Contact() {
-
- 
-  
   return (
     <div>
       <div
@@ -25,7 +22,7 @@ function Contact() {
         </h2>
 
         <p className="mt-4 w-full text-[12px] text-gray-200 sm:text-[14px] md:w-[40vw]">
-          Whether you're seeking assistance, have inquiries about our services,
+          Whether you{`'`}re seeking assistance, have inquiries about our services,
           or simply want to reach out, our team is here, 24/7.
         </p>
       </div>
@@ -101,7 +98,6 @@ function Contact() {
                     <div className="flex items-center h-5">
                       <input
                         id="terms"
-                        aria-describedby="terms"
                         type="checkbox"
                         className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800"
                         required=""
