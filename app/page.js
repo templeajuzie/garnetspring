@@ -5,7 +5,7 @@ import HomeSec from "./Components/HomeComponent/HomeSec";
 import Info1 from "./Components/HomeComponent/Info1";
 import CompanyInfo from "./Components/HomeComponent/CompanyInfo";
 import AboutUs from "./Components/HomeComponent/AboutUs";
-import Info4 from "./Components/HomeComponent/Info4";
+import Info4 from "./Components/ProductPackging/Info4";
 import Info5 from "./Components/HomeComponent/Info5";
 import Pricing from "./Components/PricingComponent/Pricing";
 import Newsletter from "./Components/HomeComponent/Newsletter";

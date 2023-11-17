@@ -2,101 +2,132 @@ import React from "react";
 import { NavbarWithMegaMenu } from "../Components/NavbarComponent/Nav";
 import { FooterWithSitemap } from "../Components/FooterComponent/Footer";
 import Image from "next/image";
+import Link from "next/link";
 
 function Contact() {
+
+ 
+  
   return (
     <div>
-      <NavbarWithMegaMenu />
-      <>
-        <section>
-          <div className="mx-auto max-w-7xl px-5 py-16 text-center md:px-10 md:py-24 lg:py-32 lg:w-[60%]">
-            <h2 className="text-3xl font-bold md:text-3xl">Contact Sales</h2>
-            <p className="mx-auto mb-8 mt-4 max-w-lg text-[#636262] md:mb-12 lg:mb-16">
-              Whether you're seeking assistance, have inquiries about our
-              services, or simply want to reach out, our team is here to provide
-              prompt and helpful responses.
-            </p>
+      <div
+        className="bg-[#11113A] bg-gradient-to-br from-[#11113A] via-[#11113A] to- 
+      [#11113A]  h-fit"
+      >
+        <NavbarWithMegaMenu />
+      </div>
+      <div
+        className="flex flex-col justify-center items-center px-10 md:px-16 mx-auto text-center md:mb-12 lg:mb-5 bg-[#11113A] bg-gradient-to-br from-[#11113A] via-[#11113A] to- 
+      [#11113A]  h-[30vh] shadow-lg"
+      >
+        <h2 className="text-3xl font-bold text-white md:text-3xl">
+          Contact Sales
+        </h2>
 
-            <form
-              name="wf-form-name"
-              method="get"
-              className="mx-auto mb-4 text-left sm:px-4 md:px-20"
-            >
-              <div className="grid w-full grid-cols-2 gap-6 mb-4">
-                <div>
-                  <label for="name-2" className="mb-1 font-medium">
-                    First Name
-                  </label>
-                  <input
-                    type="text"
-                    className="mb-4 block h-9 w-full rounded-md border border-solid border-black px-3 py-6 text-sm text-[#333333]"
-                    placeholder=""
-                    required=""
-                  />
-                </div>
-                <div>
-                  <label for="name-3" className="mb-1 font-medium">
-                    Last Name
-                  </label>
-                  <input
-                    type="text"
-                    className="mb-4 block h-9 w-full rounded-md border border-solid border-black px-3 py-6 text-sm text-[#333333]"
-                    placeholder=""
-                    required=""
-                  />
-                </div>
+        <p className="mt-4 w-full text-[12px] text-gray-200 sm:text-[14px] md:w-[40vw]">
+          Whether you're seeking assistance, have inquiries about our services,
+          or simply want to reach out, our team is here, 24/7.
+        </p>
+      </div>
+      <>
+        <section className="dark:bg-gray-900">
+          <div className="flex flex-col items-center justify-center px-6 py-8 mx-10 auto mt- lg:py-0">
+            <div className="w-full rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+              <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
+                <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
+                  Fill this form
+                </h1>
+                <form className="space-y-4 md:space-y-6" action="#">
+                  <div>
+                    <label
+                      htmlFor="fullname"
+                      className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                    >
+                      Fullname
+                    </label>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      placeholder="John Doe"
+                      required=""
+                    />
+                  </div>
+                  <div>
+                    <label
+                      htmlFor="email"
+                      className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                    >
+                      Email
+                    </label>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      placeholder="name@company.com"
+                      required=""
+                    />
+                  </div>
+
+                  <div>
+                    <label
+                      htmlFor="email"
+                      className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                    >
+                      Phone number
+                    </label>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      placeholder="+234-905-XXXX-XXX"
+                      required=""
+                    />
+                  </div>
+
+                  <div className="md:col-span-2">
+                    <textarea
+                      name="message"
+                      rows="5"
+                      placeholder="Cover Letter *"
+                      className="w-full px-3 py-2 text-gray-900 border border-gray-300 rounded-md bg-gray-50"
+                    ></textarea>
+                  </div>
+
+                  <div className="flex items-start">
+                    <div className="flex items-center h-5">
+                      <input
+                        id="terms"
+                        aria-describedby="terms"
+                        type="checkbox"
+                        className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800"
+                        required=""
+                      />
+                    </div>
+                    <div className="ml-3 text-sm">
+                      <label
+                        htmlFor="terms"
+                        className="font-light text-gray-500 dark:text-gray-300"
+                      >
+                        I accept the{" "}
+                        <Link
+                          className="font-medium text-primary-600 hover:underline dark:text-primary-500"
+                          href="terms"
+                        >
+                          Terms and Conditions
+                        </Link>
+                      </label>
+                    </div>
+                  </div>
+                  <button className="w-full px-3 py-3 text-white bg-black rounded-md">
+                    Submit
+                  </button>
+                </form>
               </div>
-              <div className="mb-4">
-                <label for="field" className="mb-1 font-medium">
-                  Company Name
-                </label>
-                <input
-                  type="text"
-                  className="mb-4 block h-9 w-full rounded-md border border-solid border-black px-3 py-6 text-sm text-[#333333]"
-                />
-              </div>
-              <div className="mb-4">
-                <label for="field" className="mb-1 font-medium">
-                  Email
-                </label>
-                <input
-                  type="text"
-                  className="mb-4 block h-9 w-full rounded-md border border-solid border-black px-3 py-6 text-sm text-[#333333]"
-                />
-              </div>
-              <div className="mb-5 md:mb-6 lg:mb-8">
-                <label for="field" className="mb-1 font-medium">
-                  Message
-                </label>
-                <textarea
-                  placeholder=""
-                  maxlength="5000"
-                  name="field"
-                  className="mb-2.5 block h-auto min-h-[186px] w-full rounded-md border border-solid border-black px-3 py-2 text-sm text-[#333333]"
-                >
-                  {" "}
-                </textarea>
-              </div>
-              <label className="flex items-center justify-start pb-4 pl-5 mb-1 font-mediume">
-                <input
-                  type="checkbox"
-                  name="checkbox-2"
-                  className="-ml-[20px] mt-1"
-                />
-                <span
-                  className="inline-block ml-4 text-sm cursor-pointer"
-                  for="checkbox-2"
-                >
-                  By selecting this, you agree to the
-                  <a href="#"> Privacy Policy</a>
-                </span>
-              </label>
-              <input
-                type="submit"
-                value="Join Garnet Spring"
-                className="inline-block w-full px-6 py-3 font-semibold text-center text-white bg-black cursor-pointer"
-              />
-            </form>
+            </div>
           </div>
         </section>
       </>

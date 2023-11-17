@@ -8,14 +8,6 @@ function Info4() {
     <div>
       <section>
         <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 lg:px-16 md:py-24 lg:py-20">
-          <h2 class="mx-auto mb-4 max-w-3xl text-center text-3xl font-bold md:mb-12 md:text-3xl lg:mb-4">
-            Smooth Process, Transformable Services.
-          </h2>
-
-          <p class="mx-auto mb-8 mt-4 max-w-lg text-center text-sm text-[#636262] sm:text-base md:mb-12">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-            aliquam,purus sit amet luctus magna fringilla urna
-          </p>
 
           <section>
             <div class="mx-auto w-full max-w-7xl px-2 py-16 md:px-10 md:py-24 lg:py-10">
