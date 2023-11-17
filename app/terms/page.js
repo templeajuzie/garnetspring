@@ -9,21 +9,21 @@ import Info4 from "../Components/ProductPackging/Info4";
 function Services() {
   return (
     <div>
-      <NavbarWithMegaMenu />
+      <div className="bg-[#11113A] bg-gradient-to-br from-[#11113A] via-[#11113A] to-[#11113A] h-fit">
+        <NavbarWithMegaMenu />
+      </div>
+      <div className="flex flex-col justify-center items-center px-10 md:px-16 mx-auto text-center md:mb-12 lg:mb-5 bg-[#11113A] bg-gradient-to-br from-[#11113A] via-[#11113A] to-[#11113A] h-[30vh] shadow-lg">
+        <h2 className="text-3xl font-bold text-white md:text-3xl">
+          TERMS OF SERVICE
+        </h2>
+
+        <p className="mt-4 w-full text-[12px] text-gray-200 sm:text-[14px] md:w-[40vw]">
+          Last Updated as of November 11, 2023
+        </p>
+      </div>
 
       <section>
         <div className="flex flex-col items-center justify-center px-5 md:px-10 lg:px-16">
-          <div className="flex h-auto ] flex-col items-center justify-end py-6 md:h-64">
-            <div className="flex flex-col items-center py-5 gap-y-4">
-              <h1 className="text-3xl font-bold md:text-3xl">
-                TERMS OF SERVICE
-              </h1>
-              <p className="text-sm text-[#808080] sm:text-base">
-                Last Updated as of November 11, 2023
-              </p>
-            </div>
-          </div>
-
           <div className="w-full py-12 mx-auto md:py-16 lg:py-20">
             <div className="flex flex-col items-center gap-y-14">
               <p className="max-w-3xl text-sm text-center sm:text-base">

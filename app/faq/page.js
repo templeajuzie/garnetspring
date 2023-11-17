@@ -38,23 +38,19 @@ function FAQ() {
 
   return (
     <div>
-      <NavbarWithMegaMenu />
+      <div className="bg-[#11113A] bg-gradient-to-br from-[#11113A] via-[#11113A] to-[#11113A] h-fit">
+        <NavbarWithMegaMenu />
+      </div>
+      <div className="flex flex-col justify-center items-center px-10 md:px-16 mx-auto text-center md:mb-12 lg:mb-5 bg-[#11113A] bg-gradient-to-br from-[#11113A] via-[#11113A] to-[#11113A] h-[30vh] shadow-lg">
+        <h2 className="text-3xl font-bold text-white md:text-3xl">FAQ</h2>
+
+        <p className="mt-4 w-full text-[12px] text-gray-200 sm:text-[14px] md:w-[40vw]">
+          Frequently Asked Questions
+        </p>
+      </div>
       <>
         <section>
           <div className="flex flex-col items-center justify-center w-full px-5 py-16 mx-auto max-w-7xl md:px-10 md:py-24 lg:py-32 lg:px-40 ">
-            <div className="mx-auto flex w-full lg:max-w-[550px] flex-col items-center justify-center px-6 text-center lg:px-10">
-              <p className="mb-2 text-sm font-medium text-center font-inter">
-                FAQs
-              </p>
-              <h1 className="mx-auto text-3xl font-bold text-center text-black lg: lg:text-4xl">
-                Frequently Asked Questions
-              </h1>
-              <p className="font-inter w-full mb-20 mt-4 lg:max-w-[600px] px-1 text-center text-base font-light text-[#71717A]  lg:">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-                aliquam, purus sit amet luctus venenatis, lectus magna fringilla
-                urna
-              </p>
-            </div>
             <>
               <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
                 <AccordionHeader onClick={() => handleOpen(1)}>
@@ -145,9 +141,9 @@ function FAQ() {
                   Cartoon branding can significantly enhance your online
                   presence by making your brand visually appealing and
                   memorable. Engaging visuals are more likely to be shared on
-                  social media, increasing your brands visibility and reach.
-                  Our cartoon branding services are designed to create a
-                  positive and lasting impression in the digital space.
+                  social media, increasing your brands visibility and reach. Our
+                  cartoon branding services are designed to create a positive
+                  and lasting impression in the digital space.
                 </AccordionBody>
               </Accordion>
 
