@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image";
 import { NavbarWithMegaMenu } from "./Components/NavbarComponent/Nav";
 import { FooterWithSitemap } from "./Components/FooterComponent/Footer";
@@ -11,8 +13,13 @@ import Pricing from "./Components/PricingComponent/Pricing";
 import Newsletter from "./Components/HomeComponent/Newsletter";
 import Testimonials from "./Components/TestimonialsComponent/Testimonials";
 import Offering from "./Components/HomeComponent/Offering";
+import { useRef } from "react";
+import TawkMessengerReact from "@tawk.to/tawk-messenger-react";
 
 export default function Home() {
+  const tawkMessengerRef = useRef();
+  
+
   return (
     <div className="bg-white">
       <div
@@ -25,12 +32,17 @@ export default function Home() {
         </div>
       </div>
       <CompanyInfo />
-      <Pricing />
+      {/* <Pricing /> */}
       <Info1 />
       <Offering />
       <Newsletter />
       <Testimonials />
       <FooterWithSitemap />
+      <TawkMessengerReact
+        propertyId="655b7978d600b968d31528ab"
+        widgetId="default"
+        ref={tawkMessengerRef}
+      />
     </div>
   );
 }

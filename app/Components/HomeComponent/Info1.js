@@ -9,7 +9,7 @@ function Info1() {
     <div>
       <section>
         <div className="gap-10 px-5 py-16 mx-auto max-w-7xl md:px-10 md:py-24 lg:py-24 lg:px-16">
-          <div className="flex flex-col-reverse gap-8 sm:gap-6 lg:grid lg:grid-cols-2 lg:gap-10">
+          <div className="flex flex-col-reverse gap-8 sm:gap-6 h-[60vh] lg:grid lg:grid-cols-2 lg:gap-10">
             {/* <div>
               <Image
                 src="https://i.pinimg.com/564x/b7/2c/74/b72c7481803d27d97c887500a52469de.jpg"
@@ -31,34 +31,20 @@ function Info1() {
             </div>
 
             <div className="flex flex-col items-start lg:justify-center">
-              <h2 className="mb-4 text-3xl font-bold md:text-2xl">
-                Environmental impact
-              </h2>
-              <div className="max-w-[480px]">
-                <p className="text-sm text-gray-800 sm:text-[15px]">
-                  Using eco-friendly packaging can have a significant positive
-                  impact on the environment. Eco-friendly packaging is made from
-                  materials that can be broken down naturally, which helps to
-                  reduce waste and pollution. It can also help to conserve
-                  resources and reduce greenhouse gas emissions.
-                </p>
-              </div>
+              
 
               <div className="mb-2 mt-5 h-0 w-40 border [border-top-style:solid]"></div>
 
               <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                 <h2 className="mb-4 text-2xl font-bold text-black md:text-xl">
-                  Get to know about us
+                Environmental impact
                 </h2>
                 <p className="text-sm text-gray-800 sm:text-[15px]">
-                  Garnet Spring Limited is business solution delivery company
-                  committed to providing tailored solutions that are affordable,
-                  competitive, accessible and sustainable. We are dedicated to
-                  shaping the future of business solutions and transforming the
-                  business ecosystem. <br /> <br /> With a relentless commitment to
-                  innovation, excellence, and client success, we stand as a
-                  pillar of trust and reliability in the ever-evolving world of
-                  business technology.
+                Using eco-friendly packaging can have a significant positive
+                  impact on the environment. <br /> <br /> Eco-friendly packaging is made from
+                  materials that can be broken down naturally, which helps to
+                  reduce waste and pollution. <br /> <br /> It can also help to conserve
+                  resources and reduce greenhouse gas emissions.
                 </p>
               </div>
             </div>

@@ -256,6 +256,13 @@ function NavList() {
       <Typography variant="small" color="blue-gray" className="font-medium">
         <Link href="/career">
           <ListItem className="flex items-center gap-2 py-2 pr-4">
+            Store
+          </ListItem>
+        </Link>
+      </Typography>
+      <Typography variant="small" color="blue-gray" className="font-medium">
+        <Link href="/career">
+          <ListItem className="flex items-center gap-2 py-2 pr-4">
             Career
           </ListItem>
         </Link>
