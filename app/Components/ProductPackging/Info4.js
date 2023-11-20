@@ -8,7 +8,7 @@ function Info4() {
     <div>
       <section>
         <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 lg:px-16 md:py-24 lg:py-20">
-          <div className="max-w-3xl px-16 mx-auto mt-4 mb-8 text-center md:mb-12 lg:mb-5">
+          <div className="max-w-3xl px-2 mx-auto mt-4 mb-8 text-center md:px-10 lg:px-16 md:mb-12 lg:mb-5">
             <h2 className="text-3xl font-bold md:text-3xl">
               Product Packaging Process
             </h2>

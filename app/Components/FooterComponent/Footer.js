@@ -12,15 +12,15 @@ const SITEMAP = [
   },
   {
     title: "Help Center",
-    links: ["Discord", "Twitter", "GitHub", "Contact Us"],
+    links: ["+234-835-525-955", "info@garnetspring.com", "Live Chat", "Contact Us"],
   },
   {
     title: "Resources",
-    links: ["Blog", "Newsletter", "Free Products", "Affiliate Program"],
+    links: ["Blog", "Newsletter", "Our Solutions", "Affiliate Program"],
   },
   {
-    title: "Products",
-    links: ["Templates", "UI Kits", "Icons", "Mockups"],
+    title: "Socials",
+    links: ["Facebook", "Instagram", "Twitter", "Youtube"],
   },
 ];
 
