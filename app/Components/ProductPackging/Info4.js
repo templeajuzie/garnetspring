@@ -14,7 +14,9 @@ function Info4() {
             </h2>
 
             <p className="mt-4 text-sm text-[#636262] sm:text-base">
-              Simple &amp; fixed pricing. 30 days money-back guarantee
+              Our product packaging process is a systematic and essential
+              procedure that involves the design, creation, and assembly of
+              packaging for a product.
             </p>
           </div>
           <section>
