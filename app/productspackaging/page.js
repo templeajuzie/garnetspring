@@ -6,11 +6,14 @@ import { FooterWithSitemap } from "../Components/FooterComponent/Footer";
 import Image from "next/image";
 import Info4 from "../Components/ProductPackging/Info4";
 import Offering from "../Components/HomeComponent/Offering";
+import productpackaging from "../Resources/Images/productpackaging.png";
 import {
   Accordion,
   AccordionHeader,
   AccordionBody,
 } from "@material-tailwind/react";
+import Link from "next/link";
+import { FaArrowTrendUp } from "react-icons/fa6";
 
 function Icon({ id, open }) {
   return (
@@ -34,11 +37,10 @@ function Icon({ id, open }) {
 }
 
 function ProductPackaging() {
-
-  const [open, setOpen] = React.useState(0);
+  const [open, setOpen] = React.useState(2);
 
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
-  
+
   return (
     <div>
       <div
@@ -60,9 +62,184 @@ function ProductPackaging() {
           diverse needs of your brand
         </p>
       </div>
-      <div className="flex flex-col gap-8 md:flex-col">
-        
+      <div className="flex flex-col gap-8 md:flex-col"></div>
+
+      <div className="grid items-center gap-8 px-4 justify-items-start sm:gap-20 lg:gap-28 lg:grid-cols-2 md:px-14 lg:px-20">
+        <div className="a">
+          <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
+            <AccordionHeader onClick={() => handleOpen(1)}>
+              Eco-friendly Paper Packaging
+            </AccordionHeader>
+            <AccordionBody>
+              <ul className="flex flex-col items-start gap-4">
+                <li className="flex items-start mb-2">
+                  <Image
+                    src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6358be3a3c2bb8076f2bad62_Vector-6.svg"
+                    height={200}
+                    width={200}
+                    alt=""
+                    className="inline-block w-4 h-4 mr-2"
+                  />
+                  <p className="text-start text-sm text-[#636262]">
+                    Corrugated boxes
+                  </p>
+                </li>
+                <li className="flex items-start mb-2">
+                  <Image
+                    src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6358be3a3c2bb8076f2bad62_Vector-6.svg"
+                    height={200}
+                    width={200}
+                    alt=""
+                    className="inline-block w-4 h-4 mr-2"
+                  />
+                  <p className="text-start text-sm text-[#636262]">
+                    Paperboard cartons
+                  </p>
+                </li>
+                <li className="flex items-start mb-2">
+                  <Image
+                    src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6358be3a3c2bb8076f2bad62_Vector-6.svg"
+                    height={200}
+                    width={200}
+                    alt=""
+                    className="inline-block w-4 h-4 mr-2"
+                  />
+                  <p className="text-start text-sm text-[#636262]">
+                    Paper tubes
+                  </p>
+                </li>
+                <li className="flex items-start">
+                  <Image
+                    src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6358be3a3c2bb8076f2bad62_Vector-6.svg"
+                    height={200}
+                    width={200}
+                    alt=""
+                    className="inline-block w-4 h-4 mr-2"
+                  />
+                  <p className="text-start text-sm text-[#636262]">
+                    Paperboard rolls
+                  </p>
+                </li>
+                <li className="flex items-start">
+                  <Image
+                    src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6358be3a3c2bb8076f2bad62_Vector-6.svg"
+                    height={200}
+                    width={200}
+                    alt=""
+                    className="inline-block w-4 h-4 mr-2"
+                  />
+                  <p className="text-start text-sm text-[#636262]">
+                    Paperboard sheets
+                  </p>
+                </li>
+                <li className="flex items-start">
+                  <Image
+                    src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6358be3a3c2bb8076f2bad62_Vector-6.svg"
+                    height={200}
+                    width={200}
+                    alt=""
+                    className="inline-block w-4 h-4 mr-2"
+                  />
+                  <p className="text-start text-sm text-[#636262]">
+                    Paperboard cartons
+                  </p>
+                </li>
+                <li className="flex items-start">
+                  <Image
+                    src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6358be3a3c2bb8076f2bad62_Vector-6.svg"
+                    height={200}
+                    width={200}
+                    alt=""
+                    className="inline-block w-4 h-4 mr-2"
+                  />
+                  <p className="text-start text-sm text-[#636262]">
+                    Paper sacks
+                  </p>
+                </li>
+                <li className="flex items-start">
+                  <Image
+                    src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6358be3a3c2bb8076f2bad62_Vector-6.svg"
+                    height={200}
+                    width={200}
+                    alt=""
+                    className="inline-block w-4 h-4 mr-2"
+                  />
+                  <p className="text-start text-sm text-[#636262]">
+                    Paper bags
+                  </p>
+                </li>
+              </ul>
+            </AccordionBody>
+          </Accordion>
+
+          <Accordion open={open === 2} icon={<Icon id={2} open={open} />}>
+            <AccordionHeader onClick={() => handleOpen(2)}>
+              Eco-friendly plastic Packaging
+            </AccordionHeader>
+            <AccordionBody>
+              <ul className="flex flex-col items-start gap-4">
+                <li className="flex items-start mb-2">
+                  <Image
+                    src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6358be3a3c2bb8076f2bad62_Vector-6.svg"
+                    height={200}
+                    width={200}
+                    alt=""
+                    className="inline-block w-4 h-4 mr-2"
+                  />
+                  <p className="text-start text-sm text-[#636262]">
+                    Compostable packing bags
+                  </p>
+                </li>
+                <li className="flex items-start mb-2">
+                  <Image
+                    src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6358be3a3c2bb8076f2bad62_Vector-6.svg"
+                    height={200}
+                    width={200}
+                    alt=""
+                    className="inline-block w-4 h-4 mr-2"
+                  />
+                  <p className="text-start text-sm text-[#636262]">
+                    Grip & Zip Seal
+                  </p>
+                </li>
+                <li className="flex items-start mb-2">
+                  <Image
+                    src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6358be3a3c2bb8076f2bad62_Vector-6.svg"
+                    height={200}
+                    width={200}
+                    alt=""
+                    className="inline-block w-4 h-4 mr-2"
+                  />
+                  <p className="text-start text-sm text-[#636262]">
+                    Zip Slider Bags
+                  </p>
+                </li>
+                <li className="flex items-start">
+                  <Image
+                    src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6358be3a3c2bb8076f2bad62_Vector-6.svg"
+                    height={200}
+                    width={200}
+                    alt=""
+                    className="inline-block w-4 h-4 mr-2"
+                  />
+                  <p className="text-start text-sm text-[#636262]">Jute Bags</p>
+                </li>
+              </ul>
+            </AccordionBody>
+          </Accordion>
+        </div>
+
+        <div class="lg:inset-y-0 lg:right-0 lg:w-full">
+          <Image
+            className="inline-block rounded-xl h-[60vh] md:h-[70vh] w-full object-cover"
+            src={productpackaging}
+            alt=""
+            height={500}
+            width={500}
+          />
+        </div>
       </div>
+
       <Info4 />
       <Offering />
       <FooterWithSitemap />
