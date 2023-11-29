@@ -240,6 +240,22 @@ function ProductPackaging() {
         </div>
       </div>
 
+      <div>
+        <div className="max-w-3xl px-2 mx-auto mt-4 mb-8 text-center md:px-10 lg:px-16 md:mb-12 lg:mb-5">
+          <h2 className="text-3xl font-bold md:text-3xl">
+            Environmental impact
+          </h2>
+
+          <p className="mt-4 text-sm text-[#636262] sm:text-base">
+            Using eco-friendly packaging can have a significant positive impact
+            on the environment. <br /> <br /> Eco-friendly packaging is made
+            from materials that can be broken down naturally, which helps to
+            reduce waste and pollution. <br /> <br /> It can also help to
+            conserve resources and reduce greenhouse gas emissions.
+          </p>
+        </div>
+      </div>
+
       <Info4 />
       <Offering />
       <FooterWithSitemap />
