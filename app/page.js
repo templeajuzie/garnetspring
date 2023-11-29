@@ -34,7 +34,7 @@ export default function Home() {
       <CompanyInfo />
       {/* <Pricing /> */}
       <Info1 />
-      <Offering />
+      {/* <Offering /> */}
       <Newsletter />
       <Testimonials />
       <FooterWithSitemap />

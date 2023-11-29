@@ -32,16 +32,14 @@ function CompanyInfo() {
                     The Solution we provide
                   </h2>
                   <p className="text-sm text-gray-800 sm:text-sm">
-                    As part of our mission to helping business scale, we offer
-                    innovative and sustainable product packaging solutions to
-                    meet your unique needs. <br /> We understand the importance
-                    of packaging in protecting your products, promoting your
-                    brand, and aligning with your eco-conscious values for a
-                    sustainable future. <br /> <br /> Our top-tier product
-                    packaging solutions for businesses include paper packaging
-                    and our innovative line Eco friendly plastic packaging that
-                    provide the perfect blend of functionality, aesthetics, and
-                    environmental responsibility.
+                    We provide comprehensive, customized, competitive and
+                    innovative solutions to businesses across different
+                    functions and sectors for efficient value delivery. <br /> <br /> We
+                    provide end to end execution of business solutions for
+                    businesses of different scales. <br /> <br /> We provide models for
+                    businesses that drive transformative change by delivering
+                    strategies that optimize operations, enhance
+                    competitiveness, and drive sustainable growth.
                   </p>
                 </div>
               </div>
