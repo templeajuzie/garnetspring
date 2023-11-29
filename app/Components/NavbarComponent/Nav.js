@@ -254,7 +254,7 @@ function NavList() {
       </Typography> */}
       <NavListMenu2 />
       <Typography variant="small" color="blue-gray" className="font-medium">
-        <Link href="/career">
+        <Link href="#">
           <ListItem className="flex items-center gap-2 py-2 pr-4">
             Store
           </ListItem>

@@ -36,7 +36,7 @@ function Info1() {
               <div className="mb-2 mt-5 h-0 w-40 border [border-top-style:solid]"></div>
 
               <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                <h2 className="mb-4 text-2xl font-bold text-black md:text-xl">
+                {/* <h2 className="mb-4 text-2xl font-bold text-black md:text-xl">
                 Environmental impact
                 </h2>
                 <p className="text-sm text-gray-800 sm:text-[15px]">
@@ -45,7 +45,7 @@ function Info1() {
                   materials that can be broken down naturally, which helps to
                   reduce waste and pollution. <br /> <br /> It can also help to conserve
                   resources and reduce greenhouse gas emissions.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
