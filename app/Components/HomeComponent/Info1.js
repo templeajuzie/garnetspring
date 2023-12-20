@@ -22,7 +22,7 @@ function Info1() {
             <div className="relative w-full aspect-w-16 aspect-h-9">
               <iframe
                 className="absolute top-0 left-0 w-full h-full rounded-lg"
-                src="https://www.youtube.com/embed/YoTFS4eaAQU?si=ed69qkfMvL2EyDxl"
+                src="https://www.youtube.com/embed/ZuNBl6xd-0I?si=DEhOLiMPa5hhGI0Y"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
