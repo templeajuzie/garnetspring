@@ -21,7 +21,7 @@ function Info1() {
               ></iframe>
             </div>
 
-            <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+            <div className="w-full font-light text-gray-500 sm:text-lg dark:text-gray-400">
               {/* <h2 className="mb-4 text-2xl font-bold text-black md:text-xl">
                 Environmental impact
               </h2>
